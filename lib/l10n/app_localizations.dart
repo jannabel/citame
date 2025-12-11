@@ -98,7 +98,7 @@ abstract class AppLocalizations {
   /// The title of the application
   ///
   /// In en, this message translates to:
-  /// **'CitApp - Appointment Management'**
+  /// **'Citame'**
   String get appTitle;
 
   /// Login button text
