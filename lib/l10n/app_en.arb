@@ -1,0 +1,796 @@
+{
+  "@@locale": "en",
+  "appTitle": "CitApp - Appointment Management",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "welcomeBack": "Welcome Back",
+  "@welcomeBack": {
+    "description": "Welcome message on login screen"
+  },
+  "signInToManage": "Sign in to manage your appointments",
+  "@signInToManage": {
+    "description": "Subtitle on login screen"
+  },
+  "businessId": "Business ID",
+  "@businessId": {
+    "description": "Business ID input label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password input label"
+  },
+  "pleaseEnterBusinessId": "Please enter your business ID",
+  "@pleaseEnterBusinessId": {
+    "description": "Business ID validation message"
+  },
+  "pleaseEnterPassword": "Please enter your password",
+  "@pleaseEnterPassword": {
+    "description": "Password validation message"
+  },
+  "forgotPassword": "Forgot password?",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard screen title"
+  },
+  "appointments": "Appointments",
+  "@appointments": {
+    "description": "Appointments screen title"
+  },
+  "services": "Services",
+  "@services": {
+    "description": "Services screen title"
+  },
+  "employees": "Employees",
+  "@employees": {
+    "description": "Employees screen title"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  "businessSettings": "Business Settings",
+  "@businessSettings": {
+    "description": "Business settings screen title"
+  },
+  "summary": "Summary",
+  "@summary": {
+    "description": "Summary section title"
+  },
+  "pending": "Pending",
+  "@pending": {
+    "description": "Pending status"
+  },
+  "confirmed": "Confirmed",
+  "@confirmed": {
+    "description": "Confirmed status"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed status"
+  },
+  "cancelled": "Cancelled",
+  "@cancelled": {
+    "description": "Cancelled status"
+  },
+  "completedToday": "Completed Today",
+  "@completedToday": {
+    "description": "Completed today label"
+  },
+  "todaysAppointments": "Today's Appointments",
+  "@todaysAppointments": {
+    "description": "Today's appointments section title"
+  },
+  "viewAll": "View All",
+  "@viewAll": {
+    "description": "View all link"
+  },
+  "noAppointmentsToday": "No appointments for today",
+  "@noAppointmentsToday": {
+    "description": "Empty state message for today's appointments"
+  },
+  "quickActions": "Quick Actions",
+  "@quickActions": {
+    "description": "Quick actions section title"
+  },
+  "addAppointment": "Add Appointment",
+  "@addAppointment": {
+    "description": "Add appointment action"
+  },
+  "createService": "Create Service",
+  "@createService": {
+    "description": "Create service action"
+  },
+  "addEmployee": "Add Employee",
+  "@addEmployee": {
+    "description": "Add employee action"
+  },
+  "calendar": "Calendar",
+  "@calendar": {
+    "description": "Calendar filter"
+  },
+  "noAppointmentsForDay": "No appointments for this day",
+  "@noAppointmentsForDay": {
+    "description": "Empty state for calendar day"
+  },
+  "customer": "Customer",
+  "@customer": {
+    "description": "Customer label"
+  },
+  "customerName": "Customer Name",
+  "@customerName": {
+    "description": "Customer name input label"
+  },
+  "pleaseEnterCustomerName": "Please enter customer name",
+  "@pleaseEnterCustomerName": {
+    "description": "Customer name validation"
+  },
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone label"
+  },
+  "pleaseEnterPhone": "Please enter phone number",
+  "@pleaseEnterPhone": {
+    "description": "Phone validation"
+  },
+  "selectDate": "Select Date",
+  "@selectDate": {
+    "description": "Select date button"
+  },
+  "selectTime": "Select Time",
+  "@selectTime": {
+    "description": "Select time button"
+  },
+  "selectService": "Select Service",
+  "@selectService": {
+    "description": "Select service button"
+  },
+  "selectEmployee": "Select Employee",
+  "@selectEmployee": {
+    "description": "Select employee button"
+  },
+  "depositPaid": "Deposit Paid",
+  "@depositPaid": {
+    "description": "Deposit paid label"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name label"
+  },
+  "pleaseEnterName": "Please enter name",
+  "@pleaseEnterName": {
+    "description": "Name validation"
+  },
+  "active": "Active",
+  "@active": {
+    "description": "Active status"
+  },
+  "inactive": "Inactive",
+  "@inactive": {
+    "description": "Inactive status"
+  },
+  "activate": "Activate",
+  "@activate": {
+    "description": "Activate action"
+  },
+  "deactivate": "Deactivate",
+  "@deactivate": {
+    "description": "Deactivate action"
+  },
+  "price": "Price",
+  "@price": {
+    "description": "Price label"
+  },
+  "duration": "Duration",
+  "@duration": {
+    "description": "Duration label"
+  },
+  "minutes": "minutes",
+  "@minutes": {
+    "description": "Minutes unit"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile tab"
+  },
+  "workingHours": "Working Hours",
+  "@workingHours": {
+    "description": "Working hours tab"
+  },
+  "exceptions": "Exceptions",
+  "@exceptions": {
+    "description": "Exceptions tab"
+  },
+  "deposits": "Deposits",
+  "@deposits": {
+    "description": "Deposits tab"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout action"
+  },
+  "noItems": "No items",
+  "@noItems": {
+    "description": "Empty state message"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+  "newAppointment": "New Appointment",
+  "@newAppointment": {
+    "description": "New appointment title"
+  },
+  "addEmployee": "Add Employee",
+  "@addEmployee": {
+    "description": "Add employee title"
+  },
+  "editEmployee": "Edit Employee",
+  "@editEmployee": {
+    "description": "Edit employee title"
+  },
+  "addService": "Add Service",
+  "@addService": {
+    "description": "Add service title"
+  },
+  "editService": "Edit Service",
+  "@editService": {
+    "description": "Edit service title"
+  },
+  "date": "Date",
+  "@date": {
+    "description": "Date label"
+  },
+  "time": "Time",
+  "@time": {
+    "description": "Time label"
+  },
+  "selectDatePlaceholder": "Select date",
+  "@selectDatePlaceholder": {
+    "description": "Select date placeholder"
+  },
+  "selectTimePlaceholder": "Select time",
+  "@selectTimePlaceholder": {
+    "description": "Select time placeholder"
+  },
+  "noServicesAvailable": "No services available",
+  "@noServicesAvailable": {
+    "description": "No services available message"
+  },
+  "serviceSelected": "{count, plural, =1 {service selected} other {services selected}}",
+  "@serviceSelected": {
+    "description": "Service selected count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pleaseEnterServiceName": "Please enter service name",
+  "@pleaseEnterServiceName": {
+    "description": "Service name validation"
+  },
+  "pleaseEnterDuration": "Please enter duration",
+  "@pleaseEnterDuration": {
+    "description": "Duration validation"
+  },
+  "pleaseEnterPrice": "Please enter price",
+  "@pleaseEnterPrice": {
+    "description": "Price validation"
+  },
+  "pleaseEnterValidNumber": "Please enter a valid number",
+  "@pleaseEnterValidNumber": {
+    "description": "Valid number validation"
+  },
+  "descriptionOptional": "Description (Optional)",
+  "@descriptionOptional": {
+    "description": "Description optional label"
+  },
+  "durationMinutes": "Duration (minutes)",
+  "@durationMinutes": {
+    "description": "Duration minutes label"
+  },
+  "pleaseEnterEmployeeName": "Please enter employee name",
+  "@pleaseEnterEmployeeName": {
+    "description": "Employee name validation"
+  },
+  "errorLoadingServices": "Error loading services",
+  "@errorLoadingServices": {
+    "description": "Error loading services message"
+  },
+  "errorCreatingAppointments": "Error creating appointments",
+  "@errorCreatingAppointments": {
+    "description": "Error creating appointments message"
+  },
+  "pleaseSelectAtLeastOneService": "Please select at least one service",
+  "@pleaseSelectAtLeastOneService": {
+    "description": "Please select service validation"
+  },
+  "appointmentConfirmedSuccessfully": "Appointment confirmed successfully",
+  "@appointmentConfirmedSuccessfully": {
+    "description": "Appointment confirmed message"
+  },
+  "appointmentCancelledSuccessfully": "Appointment cancelled successfully",
+  "@appointmentCancelledSuccessfully": {
+    "description": "Appointment cancelled message"
+  },
+  "appointmentCompletedSuccessfully": "Appointment completed successfully",
+  "@appointmentCompletedSuccessfully": {
+    "description": "Appointment completed message"
+  },
+  "confirmAppointment": "Confirm",
+  "@confirmAppointment": {
+    "description": "Confirm appointment button"
+  },
+  "cancelAppointment": "Cancel",
+  "@cancelAppointment": {
+    "description": "Cancel appointment button"
+  },
+  "completeAppointment": "Complete",
+  "@completeAppointment": {
+    "description": "Complete appointment button"
+  },
+  "cancelAppointmentTitle": "Cancel Appointment",
+  "@cancelAppointmentTitle": {
+    "description": "Cancel appointment dialog title"
+  },
+  "cancelAppointmentMessage": "Are you sure you want to cancel this appointment?",
+  "@cancelAppointmentMessage": {
+    "description": "Cancel appointment confirmation message"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No button"
+  },
+  "yesCancel": "Yes, Cancel",
+  "@yesCancel": {
+    "description": "Yes cancel button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "businessName": "Business Name",
+  "@businessName": {
+    "description": "Business name label"
+  },
+  "pleaseEnterBusinessName": "Please enter business name",
+  "@pleaseEnterBusinessName": {
+    "description": "Business name validation"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Description label"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Address label"
+  },
+  "contactInformation": "Contact Information",
+  "@contactInformation": {
+    "description": "Contact information section title"
+  },
+  "timezone": "Timezone",
+  "@timezone": {
+    "description": "Timezone label"
+  },
+  "pleaseEnterTimezone": "Please enter timezone",
+  "@pleaseEnterTimezone": {
+    "description": "Timezone validation"
+  },
+  "timezoneHelper": "e.g., America/New_York",
+  "@timezoneHelper": {
+    "description": "Timezone helper text"
+  },
+  "saveProfile": "Save Profile",
+  "@saveProfile": {
+    "description": "Save profile button"
+  },
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile updated message"
+  },
+  "monday": "Monday",
+  "@monday": {
+    "description": "Monday day name"
+  },
+  "tuesday": "Tuesday",
+  "@tuesday": {
+    "description": "Tuesday day name"
+  },
+  "wednesday": "Wednesday",
+  "@wednesday": {
+    "description": "Wednesday day name"
+  },
+  "thursday": "Thursday",
+  "@thursday": {
+    "description": "Thursday day name"
+  },
+  "friday": "Friday",
+  "@friday": {
+    "description": "Friday day name"
+  },
+  "saturday": "Saturday",
+  "@saturday": {
+    "description": "Saturday day name"
+  },
+  "sunday": "Sunday",
+  "@sunday": {
+    "description": "Sunday day name"
+  },
+  "closed": "Closed",
+  "@closed": {
+    "description": "Closed status"
+  },
+  "open": "Open",
+  "@open": {
+    "description": "Open status"
+  },
+  "startTime": "Start Time",
+  "@startTime": {
+    "description": "Start time label"
+  },
+  "endTime": "End Time",
+  "@endTime": {
+    "description": "End time label"
+  },
+  "addException": "Add Exception",
+  "@addException": {
+    "description": "Add exception button"
+  },
+  "noExceptionsScheduled": "No exceptions scheduled",
+  "@noExceptionsScheduled": {
+    "description": "No exceptions message"
+  },
+  "reasonOptional": "Reason (Optional)",
+  "@reasonOptional": {
+    "description": "Reason optional label"
+  },
+  "requiresDeposit": "Requires Deposit",
+  "@requiresDeposit": {
+    "description": "Requires deposit label"
+  },
+  "enableDepositRequirement": "Enable deposit requirement for appointments",
+  "@enableDepositRequirement": {
+    "description": "Enable deposit requirement subtitle"
+  },
+  "depositType": "Deposit Type",
+  "@depositType": {
+    "description": "Deposit type label"
+  },
+  "fixedAmount": "Fixed Amount",
+  "@fixedAmount": {
+    "description": "Fixed amount label"
+  },
+  "percentage": "Percentage",
+  "@percentage": {
+    "description": "Percentage label"
+  },
+  "percentageLabel": "Percentage (%)",
+  "@percentageLabel": {
+    "description": "Percentage input label"
+  },
+  "amount": "Amount",
+  "@amount": {
+    "description": "Amount label"
+  },
+  "enterPercentage": "Enter percentage (e.g., 20 for 20%)",
+  "@enterPercentage": {
+    "description": "Percentage helper text"
+  },
+  "enterFixedAmount": "Enter fixed amount",
+  "@enterFixedAmount": {
+    "description": "Fixed amount helper text"
+  },
+  "pleaseEnterValue": "Please enter a value",
+  "@pleaseEnterValue": {
+    "description": "Value validation"
+  },
+  "percentageMustBeBetween": "Percentage must be between 0 and 100",
+  "@percentageMustBeBetween": {
+    "description": "Percentage range validation"
+  },
+  "saveSettings": "Save Settings",
+  "@saveSettings": {
+    "description": "Save settings button"
+  },
+  "depositSettingsUpdated": "Deposit settings updated",
+  "@depositSettingsUpdated": {
+    "description": "Deposit settings updated message"
+  },
+  "filterByStatus": "Filter by Status",
+  "@filterByStatus": {
+    "description": "Filter by status label"
+  },
+  "searchByCustomerName": "Search by customer name",
+  "@searchByCustomerName": {
+    "description": "Search by customer name placeholder"
+  },
+  "searchByServiceName": "Search by service name",
+  "@searchByServiceName": {
+    "description": "Search by service name placeholder"
+  },
+  "searchByEmployeeName": "Search by employee name",
+  "@searchByEmployeeName": {
+    "description": "Search by employee name placeholder"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All filter option"
+  },
+  "profileDescription": "Business Information",
+  "@profileDescription": {
+    "description": "Profile settings description"
+  },
+  "workingHoursDescription": "Hours you are available",
+  "@workingHoursDescription": {
+    "description": "Working hours settings description"
+  },
+  "exceptionsDescription": "Days when you are not available",
+  "@exceptionsDescription": {
+    "description": "Exceptions settings description"
+  },
+  "depositsDescription": "Requires an amount to confirm appointments",
+  "@depositsDescription": {
+    "description": "Deposits settings description"
+  },
+  "bookAppointment": "Book Appointment",
+  "@bookAppointment": {
+    "description": "Book appointment screen title"
+  },
+  "selectService": "Select Service",
+  "@selectService": {
+    "description": "Select service step title"
+  },
+  "selectDate": "Select Date",
+  "@selectDate": {
+    "description": "Select date step title"
+  },
+  "selectTime": "Select Time",
+  "@selectTime": {
+    "description": "Select time step title"
+  },
+  "customerInformation": "Customer Information",
+  "@customerInformation": {
+    "description": "Customer information section title"
+  },
+  "customerName": "Customer Name",
+  "@customerName": {
+    "description": "Customer name label"
+  },
+  "customerPhone": "Customer Phone",
+  "@customerPhone": {
+    "description": "Customer phone label"
+  },
+  "enterCustomerName": "Enter customer name",
+  "@enterCustomerName": {
+    "description": "Enter customer name placeholder"
+  },
+  "enterCustomerPhone": "Enter customer phone",
+  "@enterCustomerPhone": {
+    "description": "Enter customer phone placeholder"
+  },
+  "pleaseEnterCustomerName": "Please enter customer name",
+  "@pleaseEnterCustomerName": {
+    "description": "Customer name validation"
+  },
+  "pleaseEnterCustomerPhone": "Please enter customer phone",
+  "@pleaseEnterCustomerPhone": {
+    "description": "Customer phone validation"
+  },
+  "enterCustomerInformation": "Enter Customer Information",
+  "@enterCustomerInformation": {
+    "description": "Enter customer information button"
+  },
+  "editCustomerInformation": "Edit Customer Information",
+  "@editCustomerInformation": {
+    "description": "Edit customer information button"
+  },
+  "customerInfo": "Customer",
+  "@customerInfo": {
+    "description": "Customer info label"
+  },
+  "noServicesAvailable": "No services available",
+  "@noServicesAvailable": {
+    "description": "No services available message"
+  },
+  "errorLoadingServices": "Error loading services",
+  "@errorLoadingServices": {
+    "description": "Error loading services message"
+  },
+  "noTimeSlotsAvailable": "No time slots available for this date",
+  "@noTimeSlotsAvailable": {
+    "description": "No time slots available message"
+  },
+  "errorLoadingTimeSlots": "Error loading time slots",
+  "@errorLoadingTimeSlots": {
+    "description": "Error loading time slots message"
+  },
+  "appointmentBookedSuccessfully": "Appointment booked successfully!",
+  "@appointmentBookedSuccessfully": {
+    "description": "Appointment booked success message"
+  },
+  "minutes": "minutes",
+  "@minutes": {
+    "description": "Minutes unit"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "depositRequired": "Deposit Required",
+  "@depositRequired": {
+    "description": "Deposit required message"
+  },
+  "total": "Total",
+  "@total": {
+    "description": "Total amount label"
+  },
+  "noSubscription": "No Subscription",
+  "@noSubscription": {
+    "description": "No subscription status"
+  },
+  "subscribeToAccessPremium": "Subscribe to access premium features",
+  "@subscribeToAccessPremium": {
+    "description": "Subscribe message"
+  },
+  "viewPlans": "View Plans",
+  "@viewPlans": {
+    "description": "View plans button"
+  },
+  "noPlan": "No Plan",
+  "@noPlan": {
+    "description": "No plan status"
+  },
+  "daysRemainingInTrial": "{count, plural, =1 {1 day remaining in trial} other {{count} days remaining in trial}}",
+  "@daysRemainingInTrial": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "renewsOn": "Renews on {date}",
+  "@renewsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "manageSubscription": "Manage Subscription",
+  "@manageSubscription": {
+    "description": "Manage subscription button"
+  },
+  "errorLoadingSubscription": "Error loading subscription",
+  "@errorLoadingSubscription": {
+    "description": "Error loading subscription message"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button"
+  },
+  "errorCreatingCustomer": "Error creating customer",
+  "@errorCreatingCustomer": {
+    "description": "Error creating customer message"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button"
+  },
+  "errorLoadingDates": "Error loading dates",
+  "@errorLoadingDates": {
+    "description": "Error loading dates message"
+  },
+  "noAppointmentInfo": "No appointment information",
+  "@noAppointmentInfo": {
+    "description": "No appointment info message"
+  },
+  "downloadTicket": "Download Ticket",
+  "@downloadTicket": {
+    "description": "Download ticket button"
+  },
+  "ticketSharedSuccessfully": "Ticket shared successfully",
+  "@ticketSharedSuccessfully": {
+    "description": "Ticket shared successfully message"
+  },
+  "errorSharingTicket": "Error sharing ticket",
+  "@errorSharingTicket": {
+    "description": "Error sharing ticket message"
+  },
+  "noPhoneNumberAvailable": "No phone number available",
+  "@noPhoneNumberAvailable": {
+    "description": "No phone number available message"
+  },
+  "errorOpeningWhatsApp": "Error opening WhatsApp",
+  "@errorOpeningWhatsApp": {
+    "description": "Error opening WhatsApp message"
+  },
+  "errorAppointmentConflict": "You already have an appointment at this time",
+  "@errorAppointmentConflict": {
+    "description": "Appointment conflict error message"
+  },
+  "errorBookingAppointments": "Error booking appointments",
+  "@errorBookingAppointments": {
+    "description": "Error booking appointments message"
+  },
+  "errorBookingSomeAppointments": "{count} appointments booked. There was an error",
+  "@errorBookingSomeAppointments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNoEmployeeAvailable": "No employee available for this service",
+  "@errorNoEmployeeAvailable": {
+    "description": "No employee available error message"
+  },
+  "errorSlotNoLongerAvailable": "This time slot is no longer available",
+  "@errorSlotNoLongerAvailable": {
+    "description": "Time slot no longer available error message"
+  },
+  "errorGenericBooking": "Could not book the appointment. Please try again",
+  "@errorGenericBooking": {
+    "description": "Generic booking error message"
+  },
+  "rescheduleAppointment": "Reschedule Appointment",
+  "@rescheduleAppointment": {
+    "description": "Reschedule appointment title"
+  },
+  "reschedule": "Reschedule",
+  "@reschedule": {
+    "description": "Reschedule button"
+  },
+  "appointmentRescheduledSuccessfully": "Appointment rescheduled successfully",
+  "@appointmentRescheduledSuccessfully": {
+    "description": "Appointment rescheduled success message"
+  },
+  "errorReschedulingAppointment": "Error rescheduling appointment",
+  "@errorReschedulingAppointment": {
+    "description": "Error rescheduling appointment message"
+  },
+  "pleaseSelectDate": "Please select a date",
+  "@pleaseSelectDate": {
+    "description": "Date selection validation"
+  },
+  "pleaseSelectTime": "Please select a time",
+  "@pleaseSelectTime": {
+    "description": "Time selection validation"
+  },
+  "pleaseSelectService": "Please select a service",
+  "@pleaseSelectService": {
+    "description": "Service selection validation"
+  },
+  "pleaseSelectEmployee": "Please select an employee",
+  "@pleaseSelectEmployee": {
+    "description": "Employee selection validation"
+  }
+}
