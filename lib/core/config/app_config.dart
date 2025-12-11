@@ -1,5 +1,6 @@
 class AppConfig {
-  static const String baseUrl = 'http://localhost:3000';
+  static const String baseUrl =
+      'https://appointment-backend-production-416d.up.railway.app';
 
   // API Endpoints
   static const String loginEndpoint = '/auth/login';
