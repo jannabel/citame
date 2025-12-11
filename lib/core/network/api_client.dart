@@ -14,11 +14,12 @@ class ApiClient {
   Future<String?> Function()? _refreshTokenCallback;
 
   ApiClient({
-    this.baseUrl = AppConfig.baseUrl,
+    String? baseUrl,
     String? accessToken,
     required SecureStorageService storage,
     Future<String?> Function()? refreshTokenCallback,
-  }) : _storage = storage,
+  }) : baseUrl = baseUrl ?? AppConfig.baseUrl,
+       _storage = storage,
        accessToken = accessToken,
        _refreshTokenCallback = refreshTokenCallback {
     // Mark as loaded if token is provided, otherwise will load on first request

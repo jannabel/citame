@@ -1,7 +1,9 @@
-class AppConfig {
-  static const String baseUrl =
-      'https://appointment-backend-production-416d.up.railway.app';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
+class AppConfig {
+  static String get baseUrl =>
+      dotenv.env['BASE_URL'] ??
+      'https://appointment-backend-production-416d.up.railway.app';
   // API Endpoints
   static const String loginEndpoint = '/auth/login';
   static const String refreshTokenEndpoint = '/auth/refresh';

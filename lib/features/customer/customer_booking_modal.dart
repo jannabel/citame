@@ -10,7 +10,6 @@ import '../../core/models/service_models.dart';
 import '../../core/theme/app_theme.dart';
 import 'customer_booking_providers.dart';
 import '../../core/models/customer_models.dart';
-import '../../core/providers/api_providers.dart';
 import '../schedule/schedule_providers.dart';
 import '../../core/models/schedule_models.dart';
 import '../../core/models/business_models.dart';

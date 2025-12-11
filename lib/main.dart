@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:citapp/core/routes/app_router.dart';
 import 'package:citapp/l10n/app_localizations.dart';
 import 'package:citapp/core/theme/app_theme.dart';
 import 'package:citapp/core/services/deep_link_service.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: '.env');
   runApp(const ProviderScope(child: MyApp()));
 }
 
@@ -59,7 +62,7 @@ class _MyAppState extends ConsumerState<MyApp> {
     final router = ref.watch(routerProvider);
 
     return MaterialApp.router(
-      title: 'CitApp - Appointment Management',
+      title: 'Citame',
       theme: AppTheme.themeData,
       routerConfig: router,
       debugShowCheckedModeBanner: false,
